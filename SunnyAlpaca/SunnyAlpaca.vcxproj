@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13DB86B1-ADE2-406C-BB5E-B8D824517A9D}</ProjectGuid>
+    <RootNamespace>SunnyAlpaca</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>SunnyAlpacaToyRenderer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\SunnyAlpaca;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\include\rapidjson;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\include\SOIL;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\include\assimp;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10150.0\ucrt\x86;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\libs;E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\include\SOIL;$(LibraryPath)</LibraryPath>
+    <LibraryWPath>E:\Project\OpenGL\ApcRenderer\SunnyAlpaca\ThirdPartLibary\libs;$(LibraryWPath)</LibraryWPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>.\ThirdPartLib\include\SOIL;.\ThirdPartLib\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\ThirdPartLib\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;opengl32.lib;glfw3.lib;glew32s.lib;SOIL.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseObject\Camera.cpp" />
+    <ClCompile Include="BaseObject\FBO.cpp" />
+    <ClCompile Include="BaseObject\Mesh.cpp" />
+    <ClCompile Include="BaseObject\Model.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="RenderObject\PostEffect\PostEffectBase.cpp" />
+    <ClCompile Include="RenderEngine\OpenGLApi.cpp" />
+    <ClCompile Include="BaseObject\Texture.cpp" />
+    <ClCompile Include="RenderObject\RenderObject.cpp" />
+    <ClCompile Include="BaseObject\GameObjectManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="BaseObject\Material.cpp" />
+    <ClCompile Include="RenderEngine\NativeGLDevice.cpp" />
+    <ClCompile Include="BaseObject\Shader.cpp" />
+    <ClCompile Include="RenderEngine\RenderManager.cpp" />
+    <ClCompile Include="BaseObject\TextureCube.cpp" />
+    <ClCompile Include="RenderObject\SkyBox.cpp" />
+    <ClCompile Include="BaseObject\RenderTexture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseObject\Camera.h" />
+    <ClInclude Include="BaseObject\FBO.h" />
+    <ClInclude Include="BaseObject\Mesh.h" />
+    <ClInclude Include="BaseObject\Model.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="RenderObject\PostEffect\PostEffectBase.h" />
+    <ClInclude Include="RenderEngine\OpenGLApi.h" />
+    <ClInclude Include="RenderEngine\RenderDefine.h" />
+    <ClInclude Include="BaseObject\Texture.h" />
+    <ClInclude Include="Common\ApcUtility.h" />
+    <ClInclude Include="RenderObject\RenderObject.h" />
+    <ClInclude Include="BaseObject\GameObjectManager.h" />
+    <ClInclude Include="BaseObject\Material.h" />
+    <ClInclude Include="RenderEngine\NativeGLDevice.h" />
+    <ClInclude Include="BaseObject\Shader.h" />
+    <ClInclude Include="RenderEngine\RenderManager.h" />
+    <ClInclude Include="BaseObject\TextureCube.h" />
+    <ClInclude Include="RenderObject\SkyBox.h" />
+    <ClInclude Include="BaseObject\RenderTexture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

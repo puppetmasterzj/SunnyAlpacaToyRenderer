@@ -1,0 +1,7 @@
+{
+    "VertShaderName" : "Shader/PostEffect.vert",
+	"FragShaderName" : "Shader/PostEffect.frag",
+	"ZTestOp" : 0,
+	"ZWriteOp" : 0,
+	"CullOp" : 1
+}

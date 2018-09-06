@@ -1,0 +1,12 @@
+{
+    "VertShaderName" : "Shader/SingleColor.vert",
+	"FragShaderName" : "Shader/SingleColor.frag",
+	"ZTestOp" : 0,
+	"ZWriteOp" : 0,
+	"CullOp" : 0,
+	"TextureMap" : 
+	[
+		{"SlotName" : "material.mainTex", "TexPath" : "main.jpg"},
+		{"SlotName" : "material.specTex", "TexPath" : "tietu.jpg"}
+	]
+}

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject\RenderObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\FBO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Material.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\NativeGLDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\OpenGLApi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\RenderManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\GameObjectManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\TextureCube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject\SkyBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject\PostEffect\PostEffectBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\RenderTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderObject\RenderObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\FBO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\NativeGLDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\OpenGLApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\RenderDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ApcUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\RenderManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\GameObjectManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\TextureCube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject\SkyBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject\PostEffect\PostEffectBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\RenderTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+{
+    "VertShaderName" : "Shader/SkyBox.vert",
+	"FragShaderName" : "Shader/SkyBox.frag",
+	"ZTestOp" : 0,
+	"ZWriteOp" : 0,
+	"CullOp" : 1
+}
